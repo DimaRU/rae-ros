@@ -24,7 +24,8 @@ RUN apt-get update && apt-get -y install --no-install-recommends \
     git \
     htop \
     libsndfile1-dev \
-    libsndfile1
+    libsndfile1 \
+    busybox
 
 RUN pip3 install openai ffmpeg-python
 
