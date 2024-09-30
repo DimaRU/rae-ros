@@ -68,7 +68,7 @@ def launch_setup(context, *args, **kwargs):
             namespace=LaunchConfiguration('namespace'),
             executable='create',
             arguments=[
-                "-name", "rea",
+                "-name", "rae",
                 "-allow_renaming", "true",
                 '-topic', 'robot_description',
             ],
